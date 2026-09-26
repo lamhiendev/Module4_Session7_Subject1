@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/RikkeiSoft_Workspace/Module4_Session6\Microservices/medical-config-repo
+          default-label: main
+server:
+  port: 8888
