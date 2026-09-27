@@ -1,0 +1,10 @@
+server:
+  port: 8081
+message: Chao mung den voi Patient Service tu Config Server
+spring:
+  application:
+    name: patient-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/patient_db
+    username: postgres
+    password: postgres
